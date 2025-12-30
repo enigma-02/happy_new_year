@@ -1,5 +1,5 @@
 // 1. SET THE TARGET DATE
-const countdownDate = new Date("Jan 1, 2025 00:00:00").getTime();
+const countdownDate = new Date("Jan 1, 2026 00:00:00").getTime();
 
 const timerFunc = setInterval(function() {
     const now = new Date().getTime();
@@ -45,4 +45,5 @@ document.getElementById("reveal-btn").addEventListener("click", function() {
     // Transition Screens
     document.getElementById("countdown-container").style.display = "none";
     document.getElementById("greeting-container").classList.remove("hidden");
+
 });
