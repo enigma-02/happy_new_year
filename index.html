@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div class="stars"></div>
+
+    <audio id="bg-music" loop>
+        <source src="snowman.mpeg" type="audio/mpeg">
+    </audio>
+
+    <div id="countdown-container" class="active">
+        <h1 class="glow-text">The Magic Begins In...</h1>
+        <div id="timer">
+            <span id="days">00</span>d : <span id="hours">00</span>h : <span id="minutes">00</span>m : <span id="seconds">00</span>s
+        </div>
+        <button id="reveal-btn" class="sparkle-btn" style="display: none;">Something special for you..!</button>
+    </div>
+
+    <div id="greeting-container" class="hidden">
+        <div class="card">
+            <header>
+                <h2>Hello, it's Parv Panchal here!</h2>
+                <p class="intro-p">I wanted to take a moment to appreciate every single one of you for being part of my journey.</p>
+            </header>
+
+            <div class="middle-part">
+                <blockquote>
+                    "Wishing you a sparkling 2026 filled with joy, love, and dreams ✨! May this year bring you closer to your heart's desires and surround you with laughter. Cheers to new adventures and cherished moments with friends, family, and special ones 🥰! #HappyNewYear2026"
+                </blockquote>
+            </div>
+
+            <footer>
+                <p>Thank you for making my year so special and memorable.</p>
+                <a href="YOUR_GOOGLE_FORM_LINK" class="response-btn" target="_blank">
+                    Leave a Message for Me ✨
+                </a>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
